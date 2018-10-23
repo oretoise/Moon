@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Oretoise's Blog
+tagline:             NetSec Studies
+url:                 http://oretoise.github.io
 paginate:            1
 baseurl:             ""
 
