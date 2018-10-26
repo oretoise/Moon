@@ -102,10 +102,10 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #c0c0c0;
 }
 .masthead-title a {
-  color: #505050;
+  color: #c0c0c0;
 }
 .masthead-title small {
   font-size: 75%;
@@ -583,4 +583,5 @@ a.pagination-item:hover {
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border-radius: .25rem;
 }
