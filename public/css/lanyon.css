@@ -575,5 +575,11 @@ a.pagination-item:hover {
 }
 
 .post-list {
-    background-color: #000000;
+    background-color: #1A1423;
+}
+
+.post-item  {
+    background-color: #372549;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
