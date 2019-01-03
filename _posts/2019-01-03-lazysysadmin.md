@@ -138,6 +138,7 @@ NT_STATUS_OBJECT_NAME_NOT_FOUND listing \*
 
 Mapping and listing OK? We need to check this out.
 
+## Samba Share
 Opening the share in the file manager via smb://10.0.2.5/share$ reveals the following:
 
 <figure>
@@ -165,6 +166,7 @@ Prevent users from being able to view to web root using the local file browser
 
 Let's try the credentials from wordpress and deets.txt (togie:12345).
 
+## SSH as Togie
 ```bash
 root@kali:~# ssh togie@10.0.2.5
 ##################################################################################################
@@ -190,6 +192,7 @@ And we're in as togie. Let's see if we can't get root.
 
 ...One problem, though. We're in a restricted shell. (An odd change of pace here)
 
+## Breaking out, pwning the wardens
 Kudos to [SANS Institute](https://pen-testing.sans.org/blog/2012/06/06/escaping-restricted-linux-shells) for the restricted shell guide. The old Vi shell spawn didn't work, but we can run awk scripts.
 
 ```bash
