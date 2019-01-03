@@ -97,7 +97,7 @@ From info.php, we can see that PHP is version 5.5.9-1. There's a lot of informat
 Running wpscan is always a good idea (if going loud is fine) on a target WP installation. However, this one seems pretty barren. Upon visiting in a browser, we get a single post like so:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lazysys/wordpress.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lazysys/wordpress.PNG" alt="">
   <figcaption>The one post, by togie.</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ Mapping and listing OK? We need to check this out.
 Opening the share in the file manager via smb://10.0.2.5/share$ reveals the following:
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lazysys/directory.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/lazysys/directory.PNG" alt="">
   <figcaption>Samba share listing.</figcaption>
 </figure>
 
@@ -190,7 +190,7 @@ And we're in as togie. Let's see if we can't get root.
 
 ...One problem, though. We're in a restricted shell. (An odd change of pace here)
 
-Kudos to [SANS Institute](https://pen-testing.sans.org/blog/2012/06/06/escaping-restricted-linux-shells) for the restricted shell guide. The old Vi shell spawn didn't work, but we can run awk scripts. 
+Kudos to [SANS Institute](https://pen-testing.sans.org/blog/2012/06/06/escaping-restricted-linux-shells) for the restricted shell guide. The old Vi shell spawn didn't work, but we can run awk scripts.
 
 ```bash
 togie@LazySysAdmin:~$ cd /
